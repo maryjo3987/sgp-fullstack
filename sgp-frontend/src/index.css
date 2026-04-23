@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(135deg, #2c3e50, #14a3b9);
+  min-height: 100vh;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* 🔥 TABELAS MAIS PROFISSIONAIS */
+
+.table {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Cabeçalho */
+.table thead {
+  background: #2c503a;
+  color: white;
+}
+
+/* Linhas alternadas (zebra) */
+.table tbody tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Hover */
+.table tbody tr:hover {
+  background-color: #d6eaf8;
+  transition: 0.2s;
+}
+
+/* Espaçamento */
+.table td, 
+.table th {
+  padding: 12px;
+  vertical-align: middle;
+}
+
