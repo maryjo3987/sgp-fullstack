@@ -1,30 +1,42 @@
-# 📌 TODO - Sistema de Gestão de Projetos (SGP)
+# 📋 Roadmap do Projeto (SGP)
 
-## 🚀 Melhorias futuras
+## ✅ Funcionalidades concluídas
 
-### 🔐 Segurança
-- [ ] Implementar autenticação com JWT
-- [ ] Controle de acesso por perfil (ADMIN, USER)
-- [ ] Criptografia de senha
+- [x] Cadastro de usuários
+- [x] CRUD de projetos
+- [x] CRUD de tarefas
+- [x] Integração backend + frontend
+- [x] Estrutura em camadas (Controller, Service, Repository)
 
-### 🧠 Backend
-- [ ] Implementar paginação nas listagens
+---
+
+## 🚧 Em desenvolvimento
+
+- [ ] Autenticação com JWT
+- [ ] Controle de permissões (roles)
+- [ ] Melhorias no dashboard
+
+---
+
+## 🚀 Próximas melhorias
+
+- [ ] Deploy do backend (Render / Railway)
+- [ ] Deploy do frontend (Vercel)
+- [ ] Upload de arquivos
+- [ ] Notificações
+- [ ] Testes automatizados
+
+---
+
+## 💡 Melhorias técnicas
+
+- [ ] Padronização de DTOs
 - [ ] Tratamento global de exceções
 - [ ] Logs estruturados
-- [ ] Testes unitários com JUnit
+- [ ] Paginação e filtros
 
-### 🎨 Frontend
-- [ ] Melhorar responsividade (mobile)
-- [ ] Feedback visual (loading, alerts)
-- [ ] Validação de formulários
+---
 
-### 📊 Funcionalidades
-- [ ] Dashboard com gráficos
-- [ ] Filtro de projetos/tarefas
-- [ ] Upload de arquivos
-- [ ] Histórico de alterações
+## 🎯 Objetivo do projeto
 
-### ⚙️ DevOps
-- [ ] Dockerizar aplicação
-- [ ] Deploy em cloud (Render / AWS)
-- [ ] CI/CD com GitHub Actions
+Evoluir este sistema até um nível próximo de aplicação real utilizada em ambiente corporativo.
