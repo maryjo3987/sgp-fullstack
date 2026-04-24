@@ -1,43 +1,50 @@
 # 🚀 Sistema de Gestão de Projetos (SGP)
 
-## 📌 Sobre o projeto
+Sistema fullstack para gerenciamento de usuários, projetos e tarefas, desenvolvido com foco em simular um ambiente corporativo real.
 
-O Sistema de Gestão de Projetos (SGP) é uma aplicação fullstack desenvolvida para gerenciamento de usuários, projetos e tarefas.
+---
 
-O sistema simula um ambiente corporativo real, permitindo organização, controle e acompanhamento de atividades de forma estruturada.
+## 📌 Funcionalidades
 
+- Cadastro de usuários
+- Gerenciamento de projetos
+- Controle de tarefas
+- Dashboard com métricas (se aplicável)
+- API REST estruturada
 
-## 📌 Documentação adicional
+---
 
-- 📋 [TODO](./TODO.md)
-- 🤝 [Contribuindo](./CONTRIBUTING.md)
+## 🛠️ Tecnologias utilizadas
+
+### Backend
+- Java 21
+- Spring Boot
+- Spring Data JPA
+- MySQL
+
+### Frontend
+- React
+- Axios
+- Bootstrap
+
+---
 
 ## 📸 Preview do sistema
 
-(adicione aqui uma imagem ou gif do sistema rodando)
+*(adicione aqui prints ou gif do sistema rodando)*
 
 ---
 
 ## ▶️ Como executar o projeto
 
-### Backend
-- Rodar aplicação Spring Boot
+### 🔹 Backend
 
-### Frontend
-- npm install
-- npm start
+```bash
+cd sgp-backend
+./mvnw spring-boot:run
 
----
+### 🔹 Frontend
+cd sgp-frontend
+npm install
+npm start
 
-## 🧠 Arquitetura
-
-O projeto segue padrão em camadas:
-- Controller
-- Service
-- Repository
-
----
-
-## 📌 Status do projeto
-
-🚧 Em evolução (novas melhorias sendo implementadas)
